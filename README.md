@@ -17,9 +17,9 @@ Running<br>
 ```
 python create_data.py
 ```
-This returns kiba_train.csv, kiba_test.csv, davis_train.csv, and davis_test.csv, saved in data/ folder. These files are in turn input to create data in pytorch format, stored at data/processed/, consisting of kiba_train.pt, kiba_test.pt, davis_train.pt, and davis_test.pt
+This returns kiba_train.csv, kiba_test.csv, davis_train.csv, and davis_test.csv, saved in data/ folder. These files are in turn input to create data in pytorch format, stored at data/processed/, consisting of kiba.pt, davis.pt.
 ## 2. Train a prediction model
-To train model using training data. The model is chosen if it gains the best MSE for testing data.</br>
+Train and test model using 5-fold cross. The model is chosen if it gains the best MSE for testing data.</br>
 Running<br>
 ```
 python k_fold_training.py 0
