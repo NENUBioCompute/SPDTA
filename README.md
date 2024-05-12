@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Step-by-step running:
 ## 0. Install Python libraries needed
 - Install pytorch_geometric following instruction at https://github.com/rusty1s/pytorch_geometric
@@ -25,3 +26,6 @@ Running<br>
 python k_fold_training.py 0
 ```
 where the first argument is for the index of the datasets, 0/1 for 'davis' or 'kiba', respectively
+=======
+# SPDTA
+>>>>>>> cb37af75919f80f67e6e4c650d97a9c437740716
